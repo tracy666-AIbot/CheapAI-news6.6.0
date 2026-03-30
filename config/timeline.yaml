@@ -162,7 +162,7 @@ presets:
     name: "早晚汇总"
     description: "全天推送 + 晚间当日汇总。适合大多数人。"
 
-    # 默认配置 ── 不命中任何时间段时的行为
+    # 111默认配置 ── 不命中任何时间段时的行为
     default:
       collect: true                # 始终采集
       analyze: true                # AI 分析当前榜单
@@ -176,7 +176,7 @@ presets:
         analyze: false             # 不限制分析次数
         push: false                # 不限制推送次数
 
-    # 时间段定义 ── 只有晚间汇总需要特殊处理
+    # 222时间段定义 ── 只有晚间汇总需要特殊处理
     periods:
       evening_summary:
         name: "晚间汇总"
@@ -192,12 +192,12 @@ presets:
           analyze: true            # 窗口内只分析一次
           push:  true               # 窗口内只推送一次
 
-    # 日计划 ── 把时间段组装成一天的安排
+    # 333日计划 ── 把时间段组装成一天的安排
         push: true
       morning_summary:
         name: "早间汇总"
-        start: "06:05"
-        end: "07:29"
+        start: "06:20"
+        end: "08:00"
         # frequency_file: "xxx.txt"               # 关键词文件（可选，位于 config/custom/keyword/）
         # interests_file: "xxx.txt"                # AI 兴趣文件（可选，位于 config/custom/ai/）
         # filter_method: "keyword"                # 筛选策略（可选: keyword | ai，不填用全局 filter.method）
@@ -208,7 +208,7 @@ presets:
           analyze: true            # 窗口内只分析一次
           push: true               # 窗口内只推送一次
 
-    # 日计划 ── 把时间段组装成一天的安排
+    # 444日计划 ── 把时间段组装成一天的安排
         push: true
       afternoon_summary:
         name: "下午汇总"
@@ -224,7 +224,7 @@ presets:
           analyze: true            # 窗口内只分析一次
           push: true               # 窗口内只推送一次
 
-    # 日计划 ── 把时间段组装成一天的安排
+    # 555日计划 ── 把时间段组装成一天的安排
         push: true
       weekend_summary:
         name: "周末白天汇总"
