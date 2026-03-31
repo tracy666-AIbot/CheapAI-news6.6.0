@@ -3,7 +3,6 @@ name: Get Hot News
 on:
   schedule:
       - cron: "33,55 * * * *"
-      timezone: Asia/Shanghai
   workflow_dispatch:
 
 concurrency:
