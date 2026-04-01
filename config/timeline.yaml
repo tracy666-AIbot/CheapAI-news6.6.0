@@ -191,7 +191,7 @@ presets:
         report_mode: "daily"       # 切换为当日全部新闻汇总
         once:
           analyze: true            # 窗口内只分析一次
-          push:  true               # 窗口内只推送一次
+          push:  false               # 窗口内只推送一次
 
     # 333日计划 ── 把时间段组装成一天的安排
         push: true
