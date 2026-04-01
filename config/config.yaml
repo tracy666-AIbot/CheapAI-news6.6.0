@@ -659,5 +659,5 @@ advanced:
     feishu: 30000
     bark: 4000
     slack: 4000
-  batch_send_interval: 30              # 批次发送间隔（秒）
+  batch_send_interval: 12              # 批次发送间隔（秒）
   feishu_message_separator: "💗💗💗💗💗💗💗💗💗💗💗💗💗" 
