@@ -182,7 +182,7 @@ presets:
       evening_summary:
         name: "晚间汇总"
         start: "21:35"
-        end: "23:35"
+        end: "23:59"
         # frequency_file: "xxx.txt"               # 关键词文件（可选，位于 config/custom/keyword/）
         # interests_file: "xxx.txt"                # AI 兴趣文件（可选，位于 config/custom/ai/）
         # filter_method: "keyword"                # 筛选策略（可选: keyword | ai，不填用全局 filter.method）
