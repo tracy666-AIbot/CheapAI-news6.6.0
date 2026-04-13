@@ -182,7 +182,7 @@ presets:
       evening_summary:
         name: "晚间汇总"
         start: "21:35"
-        end: "23:59"
+        end: "02:00"
         # frequency_file: "xxx.txt"               # 关键词文件（可选，位于 config/custom/keyword/）
         # interests_file: "xxx.txt"                # AI 兴趣文件（可选，位于 config/custom/ai/）
         # filter_method: "keyword"                # 筛选策略（可选: keyword | ai，不填用全局 filter.method）
@@ -220,7 +220,7 @@ presets:
         # filter_method: "keyword"                # 筛选策略（可选: keyword | ai，不填用全局 filter.method）
         analyze: true              # 晚间做 AI 分析
         ai_mode: "follow_report"           # AI 也汇总全天内容
-        report_mode: "daily"       # 切换为当日全部新闻汇总
+        report_mode: "incremental"       # 切换为当日全部新闻汇总
         once:
           analyze: true            # 窗口内只分析一次
           push: true               # 窗口内只推送一次
@@ -230,7 +230,7 @@ presets:
       weekend_summary:
         name: "周末白天汇总"
         start: "06:55"
-        end: "11:40"
+        end: "13:25"
         # frequency_file: "xxx.txt"               # 关键词文件（可选，位于 config/custom/keyword/）
         # interests_file: "xxx.txt"                # AI 兴趣文件（可选，位于 config/custom/ai/）
         # filter_method: "keyword"                # 筛选策略（可选: keyword | ai，不填用全局 filter.method）
